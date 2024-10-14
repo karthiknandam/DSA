@@ -1,5 +1,7 @@
 #include <bits/std++.h>
 using namespace std;
+// Also i = 0 ; i < n-1 ; i++ ;
+// j = 0 ; j < n-i-1 ; j++ ; 
 void Bs(vector <int> &v){ 
     for(int i = v.size()-1  ; i > 0; i--){ 
         bool sorted = true;
