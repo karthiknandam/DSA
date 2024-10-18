@@ -3,10 +3,6 @@
 using namespace std;
 
 bool PrintS(vector<int> &mv , vector <int> v , int i , int isum , int sum , int n ){
-
-    // in the second case we are intializing the bool value and returning the value immediatly if the scope entered is false then push it to the stack else exit;
-    // This doesnt get out of it main calls are recursions make sure to return there not here;
-
     if(i==n){ 
         if(isum == sum) {
             for(auto x : v){ 
@@ -17,13 +13,6 @@ bool PrintS(vector<int> &mv , vector <int> v , int i , int isum , int sum , int 
         }
         else return false;
     }
-    // if(isum != sum){
-
-    // One line of code changes the entire process which means we can only able to print only one subsequence of the value which
-    // which in the case 3,2 only 
-    // Previously we are taking the all subsequent such as [3,2] and [4,1] which we do not want 
-    // Any ways this is the one side approach;
-    // }
     v.push_back(mv[i]);
     isum+=mv[i];
 
@@ -66,6 +55,14 @@ int main(){
 
     PrintS(mv,v,0,0,sum,n);
 
-
-
 }
+
+    // in the second case we are intializing the bool value and returning the value immediatly if the scope entered is false then push it to the stack else exit;
+    // This doesnt get out of it main calls are recursions make sure to return there not here;
+    // if(isum != sum){
+
+    // One line of code changes the entire process which means we can only able to print only one subsequence of the value which
+    // which in the case 3,2 only 
+    // Previously we are taking the all subsequent such as [3,2] and [4,1] which we do not want 
+    // Any ways this is the one side approach;
+    // }

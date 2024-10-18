@@ -11,7 +11,7 @@ vector<vector<int>>  ans;
             ans.push_back(temp);
             return;
         }
-
+        
         temp.push_back(nums[i]);
 
         callBack(nums , temp , i+1);
