@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/venkatakarthikeyanandam/Documents/Development/WEB-DEV/C++/OOPS/Inheritance/Basics/main'
+relocations:
+  - { offset: 0x514D, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x165BC, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x5369, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x138, symBinAddr: 0x100003D50, symSize: 0x34 }
+  - { offset: 0x53BE, size: 0x8, addend: 0x0, symName: __ZN15Savings_AccountC1Ev, symObjAddr: 0x118, symBinAddr: 0x100003D30, symSize: 0x20 }
+  - { offset: 0x53E2, size: 0x8, addend: 0x0, symName: __ZN15Savings_Account9Member_fnEv, symObjAddr: 0xEC, symBinAddr: 0x100003D04, symSize: 0x2C }
+  - { offset: 0x5422, size: 0x8, addend: 0x0, symName: __ZN7AccountC1Ev, symObjAddr: 0xC0, symBinAddr: 0x100003CD8, symSize: 0x2C }
+  - { offset: 0x544A, size: 0x8, addend: 0x0, symName: __ZN7AccountC2Ev, symObjAddr: 0x94, symBinAddr: 0x100003CAC, symSize: 0x2C }
+  - { offset: 0x546E, size: 0x8, addend: 0x0, symName: __ZN7Account7dispalyEv, symObjAddr: 0x0, symBinAddr: 0x100003C18, symSize: 0x94 }
+...
